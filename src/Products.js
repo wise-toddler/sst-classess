@@ -3,7 +3,7 @@ function Products() {
     return (
         <div> 
             I am Products 
-            <ProductCard />
+            <ProductCard title={"hics"} price={10}/>
         </div>
     );
 }
