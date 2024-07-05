@@ -1,4 +1,5 @@
 import ProductCard from "../ProductCard/ProductCard";
+import Effect from "../Effect/Effect";
 function Products() {
      console.log("products rendered");
     const products = [
@@ -36,6 +37,7 @@ function Products() {
     return (
         <div>
             I am Products
+            <div> <Effect/> </div>
             {
                 products.map((product) =>
                     <ProductCard title={product.title} price={product.price} />)
