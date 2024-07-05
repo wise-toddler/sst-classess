@@ -1,5 +1,6 @@
 import ProductCard from "../ProductCard/ProductCard";
 function Products() {
+     console.log("products rendered");
     const products = [
         {
             id: 1,
